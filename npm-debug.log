@@ -1,0 +1,409 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-sass' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of c:\Users\Winzip\academy_mtraore\package.json
+5 warn package.json academy_mtraore@1.0.0 No description
+6 warn package.json academy_mtraore@1.0.0 No repository field.
+7 warn package.json academy_mtraore@1.0.0 No README data
+8 verbose readDependencies loading dependencies from c:\Users\Winzip\academy_mtraore\package.json
+9 silly cache add args [ 'grunt-sass', null ]
+10 verbose cache add spec grunt-sass
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'grunt-sass',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'grunt-sass',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag' }
+12 silly addNamed grunt-sass@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for grunt-sass
+14 info addNameTag [ 'grunt-sass', 'latest' ]
+15 silly mapToRegistry name grunt-sass
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'grunt-sass',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'grunt-sass',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+20 verbose addNameTag registry:https://registry.npmjs.org/grunt-sass not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/grunt-sass
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 13:57:09
+24 verbose request id fdcf304147891938
+25 http request GET https://registry.npmjs.org/grunt-sass
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+27 info attempt registry request try #2 at 13:57:19
+28 http request GET https://registry.npmjs.org/grunt-sass
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+30 info attempt registry request try #3 at 13:58:19
+31 http request GET https://registry.npmjs.org/grunt-sass
+32 http 200 https://registry.npmjs.org/grunt-sass
+33 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 verbose headers   etag: '"5DBA8JALGDQJGVFG45IG6ZZUJ"',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'content-encoding': 'gzip',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '6730',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 09 Aug 2016 13:58:25 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '295',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-lhr6348-LHR',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '4',
+33 verbose headers   'x-timer': 'S1470751105.149918,VS0,VE0',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 200,
+34 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly get     etag: '"5DBA8JALGDQJGVFG45IG6ZZUJ"',
+34 silly get     'content-type': 'application/json',
+34 silly get     'content-encoding': 'gzip',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'content-length': '6730',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Tue, 09 Aug 2016 13:58:25 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '295',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-lhr6348-LHR',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '4',
+34 silly get     'x-timer': 'S1470751105.149918,VS0,VE0',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose get saving grunt-sass to C:\Users\Winzip\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-sass\.cache.json
+36 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly addNameTag next cb for grunt-sass with tag latest
+38 silly addNamed grunt-sass@1.2.0
+39 verbose addNamed "1.2.0" is a plain semver version for grunt-sass
+40 silly mapToRegistry name grunt-sass
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'grunt-sass',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   name: 'grunt-sass',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+45 verbose addRemoteTarball https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz not in flight; adding
+46 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz',
+46 verbose addRemoteTarball   'e3f7eb5d2bf0ae623932fae05ccc0832affbebb3' ]
+47 info retry fetch attempt 1 at 13:58:48
+48 info attempt registry request try #1 at 13:58:48
+49 http fetch GET https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz
+50 http fetch 200 https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz
+51 silly fetchAndShaCheck shasum e3f7eb5d2bf0ae623932fae05ccc0832affbebb3
+52 verbose addTmpTarball C:\Users\Winzip\AppData\Local\Temp\npm-2900-c6486192\registry.npmjs.org\grunt-sass\-\grunt-sass-1.2.0.tgz not in flight; adding
+53 verbose addTmpTarball already have metadata; skipping unpack for grunt-sass@1.2.0
+54 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+55 silly cache afterAdd grunt-sass@1.2.0
+56 verbose afterAdd C:\Users\Winzip\AppData\Roaming\npm-cache\grunt-sass\1.2.0\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\Winzip\AppData\Roaming\npm-cache\grunt-sass\1.2.0\package\package.json written
+59 silly install resolved [ { name: 'grunt-sass',
+59 silly install resolved     version: '1.2.0',
+59 silly install resolved     description: 'Compile Sass to CSS using node-sass',
+59 silly install resolved     license: 'MIT',
+59 silly install resolved     repository:
+59 silly install resolved      { type: 'git',
+59 silly install resolved        url: 'git+https://github.com/sindresorhus/grunt-sass.git' },
+59 silly install resolved     author:
+59 silly install resolved      { name: 'Sindre Sorhus',
+59 silly install resolved        email: 'sindresorhus@gmail.com',
+59 silly install resolved        url: 'sindresorhus.com' },
+59 silly install resolved     engines: { node: '>=0.10.0' },
+59 silly install resolved     scripts: { test: 'xo && grunt' },
+59 silly install resolved     files: [ 'tasks' ],
+59 silly install resolved     keywords:
+59 silly install resolved      [ 'gruntplugin',
+59 silly install resolved        'css',
+59 silly install resolved        'sass',
+59 silly install resolved        'scss',
+59 silly install resolved        'style',
+59 silly install resolved        'compile',
+59 silly install resolved        'preprocess',
+59 silly install resolved        'compile',
+59 silly install resolved        'libsass' ],
+59 silly install resolved     dependencies:
+59 silly install resolved      { 'each-async': '^1.0.0',
+59 silly install resolved        'node-sass': '^3.7.0',
+59 silly install resolved        'object-assign': '^4.0.1' },
+59 silly install resolved     devDependencies:
+59 silly install resolved      { grunt: '^1.0.1',
+59 silly install resolved        'grunt-cli': '^1.2.0',
+59 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+59 silly install resolved        'grunt-contrib-nodeunit': '^1.0.0',
+59 silly install resolved        xo: '*' },
+59 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+59 silly install resolved     gitHead: '98b7899f8341d11ec212bd27a8a129a92e3e8e83',
+59 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-sass/issues' },
+59 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-sass#readme',
+59 silly install resolved     _id: 'grunt-sass@1.2.0',
+59 silly install resolved     _shasum: 'e3f7eb5d2bf0ae623932fae05ccc0832affbebb3',
+59 silly install resolved     _from: 'grunt-sass@latest',
+59 silly install resolved     _npmVersion: '3.8.9',
+59 silly install resolved     _nodeVersion: '4.4.2',
+59 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+59 silly install resolved     dist:
+59 silly install resolved      { shasum: 'e3f7eb5d2bf0ae623932fae05ccc0832affbebb3',
+59 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz' },
+59 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+59 silly install resolved     _npmOperationalInternal:
+59 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+59 silly install resolved        tmp: 'tmp/grunt-sass-1.2.0.tgz_1462404429350_0.44835028727538884' },
+59 silly install resolved     directories: {},
+59 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.2.0.tgz' } ]
+60 info install grunt-sass@1.2.0 into c:\Users\Winzip\academy_mtraore
+61 info installOne grunt-sass@1.2.0
+62 verbose installOne of grunt-sass to c:\Users\Winzip\academy_mtraore not in flight; installing
+63 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+64 verbose lock using C:\Users\Winzip\AppData\Roaming\npm-cache\_locks\grunt-sass-9c53e6cc99554af5.lock for c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+65 silly install write writing grunt-sass 1.2.0 to c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+66 verbose unbuild node_modules\grunt-sass
+67 silly gentlyRm c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass is being purged from base c:\Users\Winzip\academy_mtraore
+68 verbose gentlyRm don't care about contents; nuking c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+69 verbose tar unpack C:\Users\Winzip\AppData\Roaming\npm-cache\grunt-sass\1.2.0\package.tgz
+70 verbose tar unpacking to c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+71 silly gentlyRm c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass is being purged
+72 verbose gentlyRm don't care about contents; nuking c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+73 silly gunzTarPerm modes [ '777', '666' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+76 silly gunzTarPerm extractEntry license
+77 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+78 silly gunzTarPerm extractEntry tasks/sass.js
+79 silly gunzTarPerm modified mode [ 'tasks/sass.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry readme.md
+81 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+82 verbose write writing to c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass\package.json
+83 info preinstall grunt-sass@1.2.0
+84 verbose readDependencies loading dependencies from c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass\package.json
+85 silly prepareForInstallMany adding each-async@^1.0.0 from grunt-sass dependencies
+86 silly prepareForInstallMany adding node-sass@^3.7.0 from grunt-sass dependencies
+87 silly prepareForInstallMany adding object-assign@^4.0.1 from grunt-sass dependencies
+88 silly prepareForInstallMany adding grunt@>=0.4.0 from grunt-sass peerDependencies
+89 warn peerDependencies The peer dependency grunt@>=0.4.0 included from grunt-sass will no
+90 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+91 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+92 verbose readDependencies loading dependencies from c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass\package.json
+93 silly cache add args [ 'each-async@^1.0.0', null ]
+94 verbose cache add spec each-async@^1.0.0
+95 silly cache add args [ 'node-sass@^3.7.0', null ]
+96 verbose cache add spec node-sass@^3.7.0
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'each-async@^1.0.0',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'each-async',
+97 silly cache add   rawSpec: '^1.0.0',
+97 silly cache add   spec: '>=1.0.0 <2.0.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed each-async@>=1.0.0 <2.0.0
+99 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for each-async
+100 silly addNameRange { name: 'each-async', range: '>=1.0.0 <2.0.0', hasData: false }
+101 silly mapToRegistry name each-async
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'each-async',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   name: 'each-async',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/each-async
+106 verbose addNameRange registry:https://registry.npmjs.org/each-async not in flight; fetching
+107 silly cache add parsed spec Result {
+107 silly cache add   raw: 'node-sass@^3.7.0',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'node-sass',
+107 silly cache add   rawSpec: '^3.7.0',
+107 silly cache add   spec: '>=3.7.0 <4.0.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed node-sass@>=3.7.0 <4.0.0
+109 verbose addNamed ">=3.7.0 <4.0.0" is a valid semver range for node-sass
+110 silly addNameRange { name: 'node-sass', range: '>=3.7.0 <4.0.0', hasData: false }
+111 silly mapToRegistry name node-sass
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: 'node-sass',
+114 silly mapToRegistry   scope: null,
+114 silly mapToRegistry   name: 'node-sass',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+116 verbose addNameRange registry:https://registry.npmjs.org/node-sass not in flight; fetching
+117 silly cache add args [ 'object-assign@^4.0.1', null ]
+118 verbose cache add spec object-assign@^4.0.1
+119 silly cache add parsed spec Result {
+119 silly cache add   raw: 'object-assign@^4.0.1',
+119 silly cache add   scope: null,
+119 silly cache add   name: 'object-assign',
+119 silly cache add   rawSpec: '^4.0.1',
+119 silly cache add   spec: '>=4.0.1 <5.0.0',
+119 silly cache add   type: 'range' }
+120 silly addNamed object-assign@>=4.0.1 <5.0.0
+121 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for object-assign
+122 silly addNameRange { name: 'object-assign',
+122 silly addNameRange   range: '>=4.0.1 <5.0.0',
+122 silly addNameRange   hasData: false }
+123 silly mapToRegistry name object-assign
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry data Result {
+126 silly mapToRegistry   raw: 'object-assign',
+126 silly mapToRegistry   scope: null,
+126 silly mapToRegistry   name: 'object-assign',
+126 silly mapToRegistry   rawSpec: '',
+126 silly mapToRegistry   spec: 'latest',
+126 silly mapToRegistry   type: 'tag' }
+127 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+128 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+129 verbose request uri https://registry.npmjs.org/each-async
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 13:58:51
+132 http request GET https://registry.npmjs.org/each-async
+133 verbose request uri https://registry.npmjs.org/node-sass
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 13:58:51
+136 http request GET https://registry.npmjs.org/node-sass
+137 verbose request uri https://registry.npmjs.org/object-assign
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 13:58:51
+140 http request GET https://registry.npmjs.org/object-assign
+141 http 200 https://registry.npmjs.org/object-assign
+142 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 verbose headers   etag: '"210XXIXKGEJZCTJR0JGNR7OS3"',
+142 verbose headers   'content-type': 'application/json',
+142 verbose headers   'content-encoding': 'gzip',
+142 verbose headers   'cache-control': 'max-age=300',
+142 verbose headers   'content-length': '3640',
+142 verbose headers   'accept-ranges': 'bytes',
+142 verbose headers   date: 'Tue, 09 Aug 2016 13:58:51 GMT',
+142 verbose headers   via: '1.1 varnish',
+142 verbose headers   age: '30',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+142 verbose headers   'x-cache': 'HIT',
+142 verbose headers   'x-cache-hits': '2',
+142 verbose headers   'x-timer': 'S1470751131.905030,VS0,VE0',
+142 verbose headers   vary: 'Accept-Encoding' }
+143 silly get cb [ 200,
+143 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 silly get     etag: '"210XXIXKGEJZCTJR0JGNR7OS3"',
+143 silly get     'content-type': 'application/json',
+143 silly get     'content-encoding': 'gzip',
+143 silly get     'cache-control': 'max-age=300',
+143 silly get     'content-length': '3640',
+143 silly get     'accept-ranges': 'bytes',
+143 silly get     date: 'Tue, 09 Aug 2016 13:58:51 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     age: '30',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-lhr6325-LHR',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '2',
+143 silly get     'x-timer': 'S1470751131.905030,VS0,VE0',
+143 silly get     vary: 'Accept-Encoding' } ]
+144 verbose get saving object-assign to C:\Users\Winzip\AppData\Roaming\npm-cache\registry.npmjs.org\object-assign\.cache.json
+145 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+146 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.1 <5.0.0', hasData: true }
+147 silly addNameRange versions [ 'object-assign',
+147 silly addNameRange   [ '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.1.2',
+147 silly addNameRange     '0.2.0',
+147 silly addNameRange     '0.2.1',
+147 silly addNameRange     '0.2.2',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.3.1',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '2.0.0',
+147 silly addNameRange     '3.0.0',
+147 silly addNameRange     '2.1.1',
+147 silly addNameRange     '4.0.0',
+147 silly addNameRange     '4.0.1',
+147 silly addNameRange     '4.1.0' ] ]
+148 silly addNamed object-assign@4.1.0
+149 verbose addNamed "4.1.0" is a plain semver version for object-assign
+150 silly mapToRegistry name object-assign
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'object-assign',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   name: 'object-assign',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+155 verbose addRemoteTarball https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz not in flight; adding
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz',
+156 verbose addRemoteTarball   '7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0' ]
+157 info retry fetch attempt 1 at 13:58:52
+158 info attempt registry request try #1 at 13:58:52
+159 http fetch GET https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz
+160 http fetch 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz
+161 silly fetchAndShaCheck shasum 7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0
+162 verbose addTmpTarball C:\Users\Winzip\AppData\Local\Temp\npm-2900-c6486192\registry.npmjs.org\object-assign\-\object-assign-4.1.0.tgz not in flight; adding
+163 verbose addTmpTarball already have metadata; skipping unpack for object-assign@4.1.0
+164 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+165 silly cache afterAdd object-assign@4.1.0
+166 verbose afterAdd C:\Users\Winzip\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json not in flight; writing
+167 verbose correctMkdir C:\Users\Winzip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+168 verbose afterAdd C:\Users\Winzip\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json written
+169 info retry will retry, error on last attempt: Error: read ECONNRESET
+170 info retry will retry, error on last attempt: Error: read ECONNRESET
+171 info attempt registry request try #2 at 14:01:22
+172 http request GET https://registry.npmjs.org/each-async
+173 info attempt registry request try #2 at 14:01:22
+174 http request GET https://registry.npmjs.org/node-sass
+175 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+176 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+177 info attempt registry request try #3 at 14:02:34
+178 http request GET https://registry.npmjs.org/each-async
+179 info attempt registry request try #3 at 14:02:34
+180 http request GET https://registry.npmjs.org/node-sass
+181 verbose about to build c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+182 verbose unlock done using C:\Users\Winzip\AppData\Roaming\npm-cache\_locks\grunt-sass-9c53e6cc99554af5.lock for c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+183 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+183 verbose stack     at errnoException (dns.js:27:10)
+183 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+184 verbose cwd c:\Users\Winzip\academy_mtraore
+185 error Windows_NT 6.1.7601
+186 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-sass"
+187 error node v4.4.7
+188 error npm  v2.15.8
+189 error code ENOTFOUND
+190 error errno ENOTFOUND
+191 error syscall getaddrinfo
+192 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+192 error network This is most likely not a problem with npm itself
+192 error network and is related to network connectivity.
+192 error network In most cases you are behind a proxy or have bad network settings.
+192 error network
+192 error network If you are behind a proxy, please make sure that the
+192 error network 'proxy' config is set properly.  See: 'npm help config'
+193 verbose exit [ 1, true ]
+194 verbose unbuild node_modules\grunt-sass
+195 info preuninstall grunt-sass@1.2.0
+196 info uninstall grunt-sass@1.2.0
+197 verbose unbuild rmStuff grunt-sass@1.2.0 from c:\Users\Winzip\academy_mtraore\node_modules
+198 info postuninstall grunt-sass@1.2.0
+199 silly gentlyRm c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass is being purged from base c:\Users\Winzip\academy_mtraore
+200 verbose gentlyRm don't care about contents; nuking c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+201 silly vacuum-fs purging c:\Users\Winzip\academy_mtraore\node_modules\grunt-sass
+202 silly vacuum-fs removing c:\Users\Winzip\academy_mtraore\node_modules
+203 silly vacuum-fs finished vacuuming up to c:\Users\Winzip\academy_mtraore
